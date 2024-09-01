@@ -4,22 +4,19 @@ class Solution(object):
         cols = len(matrix[0])
         rowArr = []
         colArr = []
-
         for i in range(rows):
             for j in range(cols):
                 if matrix[i][j] == 0:
                     rowArr.append(i)
-                    colArr.append(j)
-                    
+                    colArr.append(j)       
         for i in rowArr:
             for j in range(cols):
                 matrix[i][j] = 0
-        print(matrix)
 
         for i in range(rows):
             for j in colArr:
                 matrix[i][j] = 0
-        print(matrix)
+        
         # print(rowArr)
         # print(colArr)
 

@@ -18,3 +18,5 @@ class Solution(object):
 solution = Solution()
 result = solution.isValid("((")
 print(result)
+
+

@@ -12,4 +12,6 @@ class Solution(object):
 solution = Solution()
 result = solution.twoSum([2,3,4],5)
 print(result)
-        
+
+
+

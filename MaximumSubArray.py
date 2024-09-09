@@ -1,5 +1,5 @@
-class Solution:
-    def maxSubArray(self, nums):       
+class Solution(object):
+    def maxSubArray(self, nums):
         result = nums[0]
         total = 0
         for num in nums:
@@ -7,8 +7,5 @@ class Solution:
                 total = 0
             total = total + num
             result = max(result, total)
-        return result
+        return result 
     
-solution = Solution()
-result = solution.maxSubArray([5,4,-1,7,8])
-print(result)

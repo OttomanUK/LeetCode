@@ -17,3 +17,5 @@ class Solution(object):
 solution = Solution()
 result = solution.productExceptSelf([1,2,3,4])
 print(result)
+
+

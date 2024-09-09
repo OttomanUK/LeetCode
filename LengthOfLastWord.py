@@ -3,7 +3,7 @@ class Solution(object):
         arr = s.split()
         length = len(arr)
         word = arr[length-1]
-        return word
+        return len(word)
     
 
 solution = Solution()

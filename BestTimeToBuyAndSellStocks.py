@@ -17,3 +17,16 @@ print(result)
 
 
 
+class pracSol(object):
+    def maxProfit(self, prices):
+        lowest = 1000
+        maxProfit = 0
+        for price in prices:
+            if(lowest > price):
+                lowest = price
+            else:
+                profit = price - lowest
+                if (profit > maxProfit):
+                    maxProfit = profit
+        return maxProfit
+

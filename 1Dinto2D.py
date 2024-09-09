@@ -3,7 +3,7 @@ class Solution(object):
         result = []
         row = []
         length = len(original)
-        if length != m * n 
+        if length != m * n:
             return []
         for i, element in enumerate(original):
             row.append(element)
@@ -16,3 +16,5 @@ class Solution(object):
 solution = Solution()
 result = solution.construct2DArray([1,2,3,4],2,2)
 print(result)
+
+
